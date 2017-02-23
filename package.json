@@ -1,0 +1,28 @@
+{
+	"name": "sass-remote-compile",
+	"version": "1.0.0",
+	"description": "A simple gulp workflow to upload compiled sass files to FTP. With bells and whistles.",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"sass",
+		"scss",
+		"ftp",
+		"gulp",
+		"remote",
+		"compile"
+	],
+	"author": "Sebastian Andil",
+	"license": "ISC",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^3.1.1",
+		"gulp-csscomb": "^3.0.8",
+		"gulp-notify": "^3.0.0",
+		"gulp-sass": "^3.1.0",
+		"gulp-util": "^3.0.8",
+		"vinyl-ftp": "^0.6.0"
+	}
+}
