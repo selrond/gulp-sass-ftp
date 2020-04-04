@@ -42,12 +42,12 @@ gulp.task( 'deploy', ['sass', 'comb'], function () {
 		'./build/*.css'
 	];
 
-	// turn off buffering in gulp.src for best performance 
-	return gulp.src( globs, { 
-			base: './build', 
+	// turn off buffering in gulp.src for best performance
+	return gulp.src( globs, {
+			base: './build',
 			buffer: false
 		} )
-		.pipe( conn.dest( '/wp-content/themes/adsulting/css/' ) )
+		.pipe( conn.dest( 'your/destination' ) )
 		.pipe(notify("Gulp upload finished!"));
 } );
 
